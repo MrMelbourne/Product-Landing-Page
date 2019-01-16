@@ -1,0 +1,66 @@
+#nav-bar {
+  overflow: hidden;
+  background-color: #005DAC;
+    position: fixed; 
+  width: 100%; 
+  
+}
+
+#nav-bar ul {
+list-style-type: none;  
+}
+#nav-bar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+ 
+  padding: 14px;
+  text-decoration: none;
+  
+  }
+
+#header-img {
+    float: left;
+    height: auto;
+    width: auto;
+    max-height: 100px;
+    max-width: 250px;
+}
+
+body {
+background-color: #59707A;  
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: orange;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: purple;
+  }
+}
+
+  #box-container {
+    height: 500px;
+    display: flex;
+    
+  }
+  
+  #box-1 {
+    background-color: grey;
+    width: 50%;
+    height: 50%;
+    
+  }
+
+  #box-2 {
+    background-color: purple;
+    width: 50%;
+    height: 50%;
+    
+  }
+
+
